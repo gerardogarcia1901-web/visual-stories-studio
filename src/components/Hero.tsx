@@ -28,7 +28,7 @@ export function Hero() {
         </span>
       </div>
 
-      <div className="relative z-10 flex h-full flex-col justify-end px-6 pb-20 md:px-16 md:pb-28">
+      <div className="relative z-10 flex h-full flex-col justify-end px-6 pb-16 pt-28 md:px-16 md:pb-24 md:pt-32">
         <motion.span
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -42,7 +42,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, delay: 0.6, ease: [0.2, 0.8, 0.2, 1] }}
-          className="max-w-5xl font-display text-5xl leading-[0.95] tracking-tight md:text-7xl lg:text-[7.5rem]"
+          className="max-w-5xl font-display text-[3.25rem] leading-[0.95] tracking-tight sm:text-6xl md:text-7xl lg:text-[6.5rem]"
         >
           Capturando momentos
           <br />
