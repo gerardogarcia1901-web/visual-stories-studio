@@ -25,13 +25,16 @@ export function Footer() {
             <a href="https://facebook.com" target="_blank" rel="noreferrer" className="transition-colors hover:text-amber">
               Facebook
             </a>
-            <a href="mailto:hola@lumenstudio.co" className="transition-colors hover:text-amber">
+            <a href="https://tiktok.com" target="_blank" rel="noreferrer" className="transition-colors hover:text-amber">
+              TikTok
+            </a>
+            <a href="mailto:hola@lumenstudio.sv" className="transition-colors hover:text-amber">
               Email
             </a>
           </div>
 
           <p className="text-[10px] uppercase tracking-[0.3em] text-foreground/40">
-            © {new Date().getFullYear()} Lúmen Studio
+            © {new Date().getFullYear()} Lúmen Studio · El Salvador
           </p>
         </div>
       </div>

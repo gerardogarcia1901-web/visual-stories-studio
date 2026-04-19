@@ -64,13 +64,13 @@ export function CtaContact() {
               <ul className="divide-y divide-border border-y border-border">
                 <ContactRow
                   label="WhatsApp"
-                  value="+57 300 123 4567"
-                  href="https://wa.me/573001234567"
+                  value="+503 7123 4567"
+                  href="https://wa.me/50371234567"
                 />
                 <ContactRow
                   label="Email"
-                  value="hola@lumenstudio.co"
-                  href="mailto:hola@lumenstudio.co"
+                  value="hola@lumenstudio.sv"
+                  href="mailto:hola@lumenstudio.sv"
                 />
                 <ContactRow
                   label="Instagram"
@@ -78,8 +78,18 @@ export function CtaContact() {
                   href="https://instagram.com"
                 />
                 <ContactRow
+                  label="TikTok"
+                  value="@lumen.studio"
+                  href="https://tiktok.com/@lumen.studio"
+                />
+                <ContactRow
+                  label="Facebook"
+                  value="/lumenstudio.sv"
+                  href="https://facebook.com"
+                />
+                <ContactRow
                   label="Estudio"
-                  value="Carrera 11 #93-45 — Bogotá"
+                  value="Calle La Reforma #245 — San Salvador"
                   href="#"
                 />
               </ul>
