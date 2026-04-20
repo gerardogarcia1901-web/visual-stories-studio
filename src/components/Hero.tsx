@@ -52,7 +52,7 @@ export function Hero() {
 
       <motion.div
         style={{ y: textY, opacity }}
-        className="relative z-10 flex h-full flex-col justify-end px-6 pb-16 pt-28 md:px-16 md:pb-24 md:pt-32"
+        className="relative z-10 flex h-full flex-col justify-end px-6 pb-16 pt-40 md:px-16 md:pb-24 md:pt-48"
       >
         <div className="overflow-hidden">
           <motion.span
