@@ -162,10 +162,10 @@ function PortfolioItem({
           </div>
 
           <motion.div
-            initial={{ clipPath: "inset(100% 0 0 0)" }}
-            whileInView={{ clipPath: "inset(0% 0 0 0)" }}
-            viewport={{ once: true, margin: "-10%" }}
-            transition={{ duration: 1.4, ease: [0.7, 0, 0.2, 1] }}
+            initial={{ clipPath: "inset(20% 0 0 0)", opacity: 0 }}
+            whileInView={{ clipPath: "inset(0% 0 0 0)", opacity: 1 }}
+            viewport={{ once: true, amount: 0.1 }}
+            transition={{ duration: 1.2, ease: [0.7, 0, 0.2, 1] }}
             className="relative overflow-hidden bg-card shadow-cinematic"
           >
             <motion.div
@@ -175,7 +175,7 @@ function PortfolioItem({
               <motion.img
                 src={work.src}
                 alt={work.alt}
-                loading="lazy"
+                loading={index < 2 ? "eager" : "lazy"}
                 animate={{
                   scale: isHovered ? 1.06 : 1,
                   filter: isHovered ? "brightness(1.05)" : "brightness(0.9)",
