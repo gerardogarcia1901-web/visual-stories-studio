@@ -7,8 +7,9 @@ export function CtaContact() {
     target: ref,
     offset: ["start end", "end start"],
   });
-  const x1 = useTransform(scrollYProgress, [0, 1], ["-30%", "10%"]);
-  const x2 = useTransform(scrollYProgress, [0, 1], ["10%", "-30%"]);
+  // Parallax 1.75× más rápido que el original (-30%→10% y 10%→-30%)
+  const x1 = useTransform(scrollYProgress, [0, 1], ["-65%", "5%"]);
+  const x2 = useTransform(scrollYProgress, [0, 1], ["5%", "-65%"]);
 
   return (
     <>
