@@ -3,9 +3,11 @@ export function Footer() {
     <footer className="relative overflow-hidden border-t border-border px-6 py-12 md:px-12">
       <div className="mx-auto max-w-[1600px]">
         <div className="overflow-hidden py-16">
-          <div className="marquee flex whitespace-nowrap font-display text-[18vw] leading-none tracking-tighter text-foreground/[0.06]">
-            <span className="px-8">LÚMEN — STUDIO —</span>
-            <span className="px-8">LÚMEN — STUDIO —</span>
+          <div className="marquee flex w-max whitespace-nowrap font-display text-[18vw] leading-none tracking-tighter text-foreground/[0.06]">
+            <span className="flex-shrink-0 px-8">LÚMEN — STUDIO —</span>
+            <span className="flex-shrink-0 px-8">LÚMEN — STUDIO —</span>
+            <span className="flex-shrink-0 px-8" aria-hidden="true">LÚMEN — STUDIO —</span>
+            <span className="flex-shrink-0 px-8" aria-hidden="true">LÚMEN — STUDIO —</span>
           </div>
         </div>
 
